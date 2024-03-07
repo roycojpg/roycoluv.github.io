@@ -1,0 +1,95 @@
+*,html {
+    margin: 0;
+    padding: 0;
+    /* buat full keseluruh bagian */
+}
+
+.container-navbar {
+    background-color: crimson;
+    width: 100%;
+    height: 12vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#biodata {
+    background: red;
+    width: 500px;
+    height: 500px;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 30px;
+}
+
+.li-navbar:hover {
+    background-color: black;
+    transition: .3s ease-in-out;
+    transition-delay: .0.5s;
+    border-radius: 60px;
+    cursor: pointer;
+}
+
+.a-navbar {
+    color: white;
+    text-decoration: none;
+}
+
+.container-content {
+    background-image: url(webcam-toy-photo19.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78vh;
+}
+
+.a-content {
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    width: 900px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+.img-container {
+    display: block;
+    width: 60%;
+    height: 80%;
+    transition: width .2s, height .2s, rotate .7s;
+}
+
+.img-container:hover {
+    width: 80%;
+    height: 100%;
+    rotate: 360deg;
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer {
+    font-size: 40px;
+    font: italic;
+}
